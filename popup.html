@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rest Your Eyer</title>
+        <link rel="stylesheet" type="text/css" href="popup.css"/>
+    </head>
+    <body>
+        <h1>Rest Your Eye</h1>
+       
+        <form id="frml"> 
+        Interval of Blackout (in minutes): <input type="number" id="interval" name="interval" <br>
+        Duration of Blackout (in seconds): <input type="number" id="duration" name="duration" <br>
+        <!-- TODO .. show UI options to select red / yellow / or green -->
+        <input type="radio" id="colorr" name="color" value="red"/> red 
+        <input type="radio" id="colory" name="color" value="yellow"/> yellow   
+        <input type="radio" id="colorg" name="color" value="green"/> green  
+        </form>
+
+        <button id="startBtn">Start Now</button>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
+

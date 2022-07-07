@@ -1,0 +1,14 @@
+{
+    "name": "Rest Your Eye", 
+    "description": "Blacks out screen at regular intervals",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "128":"img/128.png"
+    },
+    "action": {
+        "default_popup":"popup.html"
+    },
+    "permissions": ["scripting", "activeTab","tabs"],
+    "background":{}
+}
