@@ -44,8 +44,14 @@ We need the program to get the current time then keep adding interval
     Then we need to add interval in minutes to
     We must use a infinite or a loop thats value turns false when stop button is clicked
     for now lets stick to a infinit loop
+You dont need to do all this.
 
 FOr this program you dont need to get time if you use ser interval method
 
 why do i get an error when i try to execute more than one line of code in my chrome extensions
-because you were leaving unnecessar indentation
+because you were leaving unnecessary indentation (that wasn;t the actual problem)
+
+I was having immense trouble in working setInterval()
+I decided to see Pomodore extension examples to see how they manged to work timer
+I came across and extension at https://github.com/sejalvasan and I found that you hace to call the funtion once before starting set Interval
+
