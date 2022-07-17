@@ -9,8 +9,6 @@
     "action": {
         "default_popup":"popup.html"
     },
-    "permissions": ["scripting", "activeTab","tabs","storage"],
-    "background":{
-        "service_worker": "background.js"
-    }
+    "permissions": ["scripting", "activeTab","tabs","storage"]
+
 }

@@ -12,3 +12,4 @@ Solved using const startBtn = document.getElementById("startBtn");
 Encountered error Document is not defined
 I know the cause of the error the cause is that the code does notw which document to get
 Looking for solution in getting started of chrome extensions
+No solution found there unless you want to use storage functionality
